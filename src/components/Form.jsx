@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import styled from "styled-components";
 import FreeTrialBtn from "./FreeTrialBtn";
+import errorIcon from "../../public/images/icon-error.svg";
 
 const Form = () => {
   const {
@@ -36,9 +37,7 @@ const Form = () => {
             />
             <p>{errors.firstname?.message}</p>
 
-            {errors.firstname?.message && (
-              <img src="../../../public/images/icon-error.svg" />
-            )}
+            {errors.firstname?.message && <img src={errorIcon} />}
           </InputContainer>
           <InputContainer>
             <Input
@@ -54,9 +53,7 @@ const Form = () => {
               })}
             />
             <p>{errors.lastname?.message}</p>
-            {errors.lastname?.message && (
-              <img src="../../../public/images/icon-error.svg" />
-            )}
+            {errors.lastname?.message && <img src={errorIcon} />}
           </InputContainer>
           <InputContainer>
             <StyledEmailInput
@@ -72,9 +69,7 @@ const Form = () => {
               })}
             />
             <p>{errors.email?.message}</p>
-            {errors.email?.message && (
-              <img src="../../../public/images/icon-error.svg" />
-            )}
+            {errors.email?.message && <img src={errorIcon} />}
           </InputContainer>
           <InputContainer>
             <StyledPassInput
@@ -90,9 +85,7 @@ const Form = () => {
               })}
             />
             <p>{errors.password?.message}</p>
-            {errors.password?.message && (
-              <img src="../../../public/images/icon-error.svg" />
-            )}
+            {errors.password?.message && <img src={errorIcon} />}
           </InputContainer>
           <Submit>Claim your free trial</Submit>
           <StyledQuote>
