@@ -37,8 +37,8 @@ Users should be able to:
 
 ## Author
 
-- Website - [Alex Kinkro](https://www.kinkro.github.io/Portfolio.com)
-- LinkedIn - [@Alexandre Kinkriashvili](https://www.linkedin.com/in/alexkinkriashvili/)
+- Website - [Alex Kinkro](https://www.kinkro.github.io/Portfolio)
+- LinkedIn - [Alexandre Kinkriashvili](https://www.linkedin.com/in/alexkinkriashvili/)
 
 
 
