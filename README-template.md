@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://your-solution-url.com)](https://github.com/Kinkro/signup-form)
-- Live Site URL: ([Sign-up form](https://kinkro.github.io/signup-form/))
+- [Solution URL](https://github.com/Kinkro/signup-form)
+- [Live Site URL](https://kinkro.github.io/signup-form/)
 
 ## My process
 
